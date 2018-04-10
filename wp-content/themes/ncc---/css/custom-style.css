@@ -1,0 +1,293 @@
+/*-----------------------------------
+		Common Css Style
+------------------------------------*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Montserrat', sans-serif;
+}
+img {
+	width:100%;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+}
+ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+a {
+	color:#00aeef;
+	   transition: all 0.3s ease-in-out 0s; 
+  -webkit-transition:all 0.3s ease-in-out 0s; 
+}
+.form-control {
+	border-radius:0;
+	height:44px;
+	line-height:44px;
+	padding:0 15px;
+	border:1px solid #ddd;
+	color:#000;
+	transition: all 0.3s ease-in-out 0s; 
+  -webkit-transition:all 0.3s ease-in-out 0s; 
+}
+.form-control:focus {
+	box-shadow:none;
+	border-color:#00aeef
+}
+span.required {
+    color: #ef1c24;
+}
+::-webkit-input-placeholder {
+  color: #ccc;
+}
+::-moz-placeholder { 
+  color: #ccc;
+}
+:-ms-input-placeholder { 
+  color:#ccc;
+}
+:-moz-placeholder {
+  color:#ccc;
+}
+.btn {
+	font-size:16px;
+	border-radius:0;
+	min-width:160px;
+	min-height:50px;
+	text-transform:uppercase;
+	font-weight:600;
+	transition: all 0.3s ease-in-out 0s; 
+	-webkit-transition:all 0.3s ease-in-out 0s; 
+}
+.btn-primary {
+	background:#2eaeef;
+	border-color:#2eaeef;
+	box-shadow: 0 5px 0 #4082a4;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+	background:#4082a4;
+	border-color:#4082a4
+}
+/*-----------------------------------
+		Header Css Style
+------------------------------------*/
+
+.top-header {
+    background: #2E3092;
+    color: #fff;
+    padding: 8px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    height: 35px;
+}
+.lead-header .row {
+    margin: 0;
+}
+.logo-container {
+	padding:10px 0;
+}
+.logo-container img {
+    width:50px;
+}
+.logo-container .logo-text  {
+	font-size: 24px;
+	font-weight: bold;
+	color: #2E3092;
+	text-shadow: 1px 2px 2px rgb(0, 0, 0);
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 35px 0px 0px 0px;
+}
+.lead-navigation-outer ul li {
+    display: inline-block;
+}
+.lead-navigation-outer ul li a {
+    color:#000;
+	font-size:16px;
+	padding:0 15px 15px 15px;
+	text-transform:uppercase;
+}
+.lead-navigation-outer {
+    text-align: right;
+    padding-top: 32px;
+}
+.lead-navigation-outer ul li a:hover,
+.lead-navigation-outer ul li a:focus,
+.lead-navigation-outer ul li.active a{
+	background:transparent;
+	color:#ef1c24
+}
+.logo-container a:hover,
+.logo-container a:focus {
+	text-decoration:none;
+}
+
+/*-----------------------------------
+		Slider Css Style
+------------------------------------*/
+
+.slider-item {
+    height: 100vh;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}
+.owl-dots {
+    display: none;
+}
+
+/*-----------------------------------
+		Lattest New Css Style
+------------------------------------*/
+
+.lattest-news-wrapper {
+    padding:40px 0;
+}
+h2.main-title {
+    margin: 0 0 35px 0;
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase;
+	position:relative;
+}
+h2.main-title:after {
+    content: "";
+    position: absolute;
+    left:42px;
+    height: 3px;
+    width: 67px;
+    bottom: -10px;
+    background: #ef1c24;
+}
+h2.main-title .fa {
+	color: #ef1c24;
+}
+.lattest-new-inner ul li a:before {
+    content: "\f101";
+    color: #ef1c24;
+    position: absolute;
+    left: 0;
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-size: 18px;
+}
+.lattest-new-inner ul li a {
+    display: block;
+    position: relative;
+    padding: 0 0 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+.lattest-new-inner ul li span.title {
+    font-size: 14px;
+    font-weight:700;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+}
+.lattest-new-inner ul li a span.date {
+    text-align: right;
+    font-weight: 400;
+    color: #888;
+}
+.lattest-new-inner ul li a:hover,.lattest-new-inner ul li a:hover  span.date{
+	text-decoration:none;
+	color: #ef1c24;
+}
+.lattest-new-inner {
+    background: #f8f8f8;
+    padding: 20px;
+}
+.readmore a {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+/*-----------------------------------
+		Enrolment Form Css Style
+------------------------------------*/
+
+.page-title {
+    background: url(../images/sub-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100% 60%;
+    position: relative;
+	padding:50px 0
+}
+.page-title:before {
+    content: "";
+    top: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    background: linear-gradient(to top,rgba(35,35,37,0.9) 0%,rgba(35,35,37,0.45) 35%,rgba(22,22,23,0) 60%,rgba(0,0,0,0) 100%);
+    background-color: rgba(35,35,37,.2);
+}
+.page-title h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    z-index: 9;
+    position: relative;
+}
+.enrolment-form-wrapper {
+	padding:40px 0;
+}
+.enrolment-form-wrapper  .btn-primary {
+    margin-top: 30px;    
+}
+
+/*-----------------------------------
+		login Page Style
+------------------------------------*/
+
+.login-form-wrapper {
+	padding-top:40px;
+}
+.login-page-wrapper {
+    max-width: 480px;
+    width: 100%;
+    margin: auto;
+    padding: 30px 40px;
+    background: #f7f7f7;
+}
+.login-page-wrapper .btn-primary {
+    min-height: 40px;
+    margin-top: 15px;
+}
+
+/*-----------------------------------
+		Footer  Css Style
+------------------------------------*/
+footer.site-footer {
+    background: #262424;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 50px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
